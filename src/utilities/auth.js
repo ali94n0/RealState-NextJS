@@ -10,4 +10,4 @@ const verifyPassword = async (password, hashedPassword) => {
   return isValid;
 };
 
-export { hashedPassword, verifyPassword };
+export { hashPassword, verifyPassword };
