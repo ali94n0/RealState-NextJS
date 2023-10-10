@@ -18,3 +18,7 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+
+button,input,textarea{
+  font-family: inherit;
+}
