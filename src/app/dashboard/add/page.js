@@ -1,7 +1,8 @@
+import AddProfilePage from "@/templates/AddProfilePage";
 import React from "react";
 
 function AddProfile(props) {
-  return <div>add profile</div>;
+  return <AddProfilePage />;
 }
 
 export default AddProfile;
