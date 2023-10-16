@@ -17,7 +17,7 @@ function Header(props) {
             <Link href={"/"}>صفحه اصلی</Link>
           </li>
           <li>
-            <Link href={"/buy-residential"}>اگهی‌ها</Link>
+            <Link href={"/buy-residentials"}>اگهی‌ها</Link>
           </li>
         </ul>
       </div>

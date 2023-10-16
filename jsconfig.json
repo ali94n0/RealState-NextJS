@@ -9,7 +9,8 @@
       "@/module/*":["./src/components/modules/*"],
       "@/templates/*":["./src/components/templates/*"],
       "@/models/*":["./src/models/*"],
-      "@/utilities/*":["./src/utilities/*"]
+      "@/utilities/*":["./src/utilities/*"],
+      "@/constants/*":["./src/constants/*"]
     }
   }
 }
