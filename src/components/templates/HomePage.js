@@ -21,7 +21,7 @@ function HomePage(props) {
         </div>
       </div>
       <div className={styles.categoriesList}>
-        {Object.keys(categories).map((k) => (
+        {Object.keys(categoriesList).map((k) => (
           <CategoryCard name={k} title={categoriesList[k]} />
         ))}
       </div>

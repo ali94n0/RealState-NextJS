@@ -1,0 +1,66 @@
+.container {
+    border-bottom: 2px solid #304ffe;
+    padding-bottom: 10px;
+    margin-bottom: 80px;
+  }
+  
+  .container h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #304ffe;
+    margin-bottom: 20px;
+  }
+  
+  .container p {
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  
+  .properties {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .properties span {
+    background-color: #304ffe58;
+    color: #304ffe;
+    padding: 5px 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+  }
+  .btnBox{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+  }
+  
+  .btnBox button {
+    
+    padding: 5px 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all ease-in 0.1s;
+  }
+  
+  .btnBox button:hover {
+    color: #000;
+  }
+  .green{
+    background-color: #00a800;
+    color: #fff;
+    border:solid 2px #00a800;
+  }
+  .red{
+    background-color: #ffffff;
+    color: #ff6767;
+    border:solid 2px #ff6767;
+  }
+  .blue{
+    background-color: #ffffff;
+    color: #304ffe;
+    border:solid 2px #304ffe;
+  }
