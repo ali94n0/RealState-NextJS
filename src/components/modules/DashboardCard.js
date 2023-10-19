@@ -30,6 +30,11 @@ function DashboardCard({ data }) {
     <div className={styles.container}>
       <Card data={data} />
       <div className={styles.main}>
+        <span
+          className={data.published ? styles.confirmBadge : styles.waitngBadge}
+        >
+          {data.published ? "منتشر شده" : "در انتظار تایید"}
+        </span>
         <button onClick={editHandler}>
           ویرایش
           <FiEdit />

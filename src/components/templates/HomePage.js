@@ -12,7 +12,7 @@ function HomePage(props) {
           <h1>سامانه خرید و اجاره ملک</h1>
           <ul>
             {services.map((i) => (
-              <li>
+              <li key={i}>
                 <FiCircle />
                 {i}
               </li>
@@ -20,9 +20,9 @@ function HomePage(props) {
           </ul>
         </div>
       </div>
-      <div className={styles.categoriesList}>
+      <div className={styles.categories}>
         {Object.keys(categoriesList).map((k) => (
-          <CategoryCard name={k} title={categoriesList[k]} />
+          <CategoryCard key={k} name={k} title={categoriesList[k]} />
         ))}
       </div>
       <div className={styles.city}>

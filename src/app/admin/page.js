@@ -23,7 +23,7 @@ async function Admin(props) {
   if (user.rule !== "ADMIN") {
     redirect("/dashboard");
   }
-  const profiles = await Profile.find({ published: false }).select("-userId");
+  const profiles = await Profile.find({ published: false });
 
   return (
     <DashboardSidebar email={user.email} rule={user.rule}>

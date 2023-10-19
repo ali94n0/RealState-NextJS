@@ -4,8 +4,10 @@ import styles from "@/templates/AdminPage.module.css";
 
 function AdminPage({ profiles }) {
   return (
-    <div className={styles.text}>
-      {!profiles.length && <p>هیچ آگهی در انتظار تاییدی وجود ندارد</p>}
+    <div>
+      {!profiles.length && (
+        <p className={styles.text}>هیچ آگهی در انتظار تاییدی وجود ندارد</p>
+      )}
 
       {profiles.map((profile) => (
         <AdminCard data={profile} key={profile._id} />

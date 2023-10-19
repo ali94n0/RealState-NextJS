@@ -3,18 +3,21 @@
     border: 2px solid #304ffe58;
     border-radius: 15px;
     margin-bottom: 20px;
+    
   }
   
   .main {
+    position: relative;
     display: flex;
     align-items: flex-end;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 10px;
     width: 100%;
   }
   
   .main button {
     display: flex;
+    margin: 0 5px;
     justify-content: center;
     align-items: center;
     width: 48%;
@@ -36,3 +39,20 @@
     border: 1px solid #db0505;
     color: #db0505;
   }
+
+  .waitngBadge{
+    position: absolute;
+    padding: 5px;
+    background: #fb8b6b;
+    border-radius: 10px;
+color: #fff;
+    top: 10px;
+    left: 10px;
+  }
+  .confirmBadge{position: absolute;
+    padding: 5px;
+    background: #67d370;
+    border-radius: 10px;
+color: #fff;
+    top: 10px;
+    left: 10px;}

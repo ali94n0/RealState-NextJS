@@ -8,7 +8,7 @@ function MyProfilesPage({ profiles }) {
         <p className={styles.text}>هیچ آگهی ثبت نشده است</p>
       )}
       {profiles.map((item) => (
-        <DashboardCard key={item._Id} data={JSON.parse(JSON.stringify(item))} />
+        <DashboardCard key={item._id} data={JSON.parse(JSON.stringify(item))} />
       ))}
     </div>
   );

@@ -155,6 +155,7 @@ export async function PATCH(req) {
     profile.amenities = amenities;
     profile.constructionDate = constructionDate;
     profile.categories = categories;
+    profile.published = false;
     profile.save();
 
     return NextResponse.json({
