@@ -1,0 +1,63 @@
+.container{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 5px;
+}
+.main{
+    width: 100%;
+    border-bottom: 1px rgb(174, 174, 174) dotted;
+}
+.main p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(70, 72, 77);
+}
+.rules{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 5px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.rules div{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.rules button{
+    border: none;
+  background-color: #304ffe;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: all ease-in 0.1s;
+  cursor: pointer;
+  padding: 3px 12px;
+}
+.rules button:hover {
+    transform: scale(1.05);
+}
+
+.admin , .user{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    color: rgb(123, 127, 137);
+    margin: 0px 5px;
+}
+.admin input ,.user input{
+    margin: 0px 5px;
+
+}
+.admin input ,.user input,.admin label , .user label{
+    cursor: pointer;
+
+}

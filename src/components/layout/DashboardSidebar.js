@@ -15,6 +15,8 @@ function DashboardSidebar({ children, email, rule }) {
         <Link href={"/dashboard/my-profiles"}>آگهی های من</Link>
         <Link href={"/dashboard/add"}>ثبت آگهی</Link>
         {rule === "ADMIN" ? <Link href={"/admin"}>در انتظار تایید</Link> : null}
+        {rule === "ADMIN" ? <Link href={"/admin/users"}>کاربران</Link> : null}
+
         <LogoutBtn />
       </div>
       <div className={styles.main}>{children}</div>
