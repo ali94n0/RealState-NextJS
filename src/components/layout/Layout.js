@@ -1,5 +1,5 @@
-import Header from "@/layout/header";
-import Footer from "@/layout/footer";
+import Header from "@/layout/Header";
+import Footer from "@/layout/Footer";
 
 function Layout({ children }) {
   const style = { minHeight: "700px" };
