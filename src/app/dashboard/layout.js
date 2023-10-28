@@ -6,6 +6,10 @@ import { redirect } from "next/navigation";
 import ConnectDB from "@/utilities/ConnectDB";
 import User from "@/models/User";
 
+export const metadata = {
+  title: "پنل کاربری | مشاور املاک",
+};
+
 async function DashboardLayout({ children }) {
   const session = await getServerSession(authOptions);
   if (!session) {

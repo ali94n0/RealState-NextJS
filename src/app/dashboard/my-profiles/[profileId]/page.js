@@ -12,5 +12,4 @@ async function Edit({ params: { profileId } }) {
   }
   return <AddProfilePage data={profile} />;
 }
-
 export default Edit;
